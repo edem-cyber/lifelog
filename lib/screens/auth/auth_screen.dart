@@ -20,7 +20,7 @@ class _AuthScreenState extends ConsumerState<AuthScreen>
     with TickerProviderStateMixin {
   final _formKey = GlobalKey<FormState>();
   final _emailController = TextEditingController(
-    text: 'edem.agbakpe@gmail.com',
+    text: 'william@oppx.ai',
   );
   final _passwordController = TextEditingController(text: 'testing11');
   bool _isSignUp = false;
