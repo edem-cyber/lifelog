@@ -28,9 +28,19 @@ A Flutter app for daily journaling with mood tracking and analytics. Users can c
 Update `lib/config/supabase_config.dart` with your project credentials:
 
 ```dart
-static const String supabaseUrl = 'YOUR_SUPABASE_URL';
-static const String supabaseAnonKey = 'YOUR_ANON_KEY';
+static const String supabaseUrl = 'YOUR_NEW_SUPABASE_URL';
+static const String supabaseAnonKey = 'YOUR_NEW_ANON_KEY';
 ```
+
+---
+
+## Security Note
+
+For this demo app, the Supabase anon key and URL are hardcoded in the source code for simplicity and ease of review. **In production, we would never expose any keys directly in the code.**
+
+Instead, use a package like [`flutter_dotenv`](https://pub.dev/packages/flutter_dotenv) to load environment variables securely and keep keys out of version control.
+
+To use your own Supabase project, replace the values in `lib/config/supabase_config.dart` with your own project's URL and anon key.
 
 ### 3. Run the App
 ```bash
