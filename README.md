@@ -1,4 +1,4 @@
-# LifeLog - Daily Journal App
+# LifeLog - Daily Journal App - for Oppx Fullstack Flutter role
 
 A Flutter app for daily journaling with mood tracking and analytics. Users can create one journal entry per day with title, body, and mood rating (1-5).
 
